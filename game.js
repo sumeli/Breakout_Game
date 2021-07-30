@@ -297,7 +297,7 @@ soundElement.addEventListener("click", audioManager);
 function audioManager(){
     //change the image according to sound on or off
     let imgSrc = soundElement.getAttribute("src");
-    let sound_img = imgSrc == "img/SOUND_ON.png" ? "img/SOUND_OFF.png" : "img/SOUND_ON.png";
+    let sound_img = imgSrc == "SOUND_ON.png" ? "SOUND_OFF.png" : "SOUND_ON.png";
 
     soundElement.setAttribute("src", sound_img);
 
