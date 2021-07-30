@@ -1,28 +1,28 @@
 //Load background images
 const back_img = new Image();
-back_img.src = "img/bgnew.jpg";
+back_img.src = "bgnew.jpg";
 
 const level_img = new Image();
-level_img.src = "img/level.png";
+level_img.src = "level.png";
 
 const life_img = new Image();
-life_img.src = "img/life.png";
+life_img.src = "life.png";
 
 const score_img = new Image();
-score_img.src = "img/score.png";
+score_img.src = "score.png";
 
 //loading the sounds
 const wall_hit = new Audio();
-wall_hit.src = "sounds/wall.mp3";
+wall_hit.src = "wall.mp3";
 
 const win_sound = new Audio();
-win_sound.src = "sounds/win.mp3";
+win_sound.src = "win.mp3";
 
 const paddlehit = new Audio();
-paddlehit.src = "sounds/brick_hit.mp3";
+paddlehit.src = "brick_hit.mp3";
 
 const lost = new Audio();
-lost.src = "sounds/life_lost.mp3";
+lost.src = "life_lost.mp3";
 
 const brickhitting = new Audio();
-brickhitting.src = "sounds/paddle_hit.mp3";
+brickhitting.src = "paddle_hit.mp3";
